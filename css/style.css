@@ -1,0 +1,52 @@
+body {
+  font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif;
+}
+
+blockquote {
+  color: #0f0;
+}
+
+[href^='https'] {
+  color: #f00;
+}
+
+.list > li a:last-child {
+  background-color: #0f0;
+}
+
+.holder ul + p {
+  font-size: 26px;
+}
+
+.text-box h3:first-of-type {
+  color: pink;
+}
+
+#greycol {
+  color: grey;
+}
+
+.text-box div p {
+  color: red;
+}
+
+.text-box p:nth-child(7) {
+  color: green;
+}
+
+.yellow {
+  color: yellow;
+}
+
+/* Task 4 */
+
+.bg-box {
+  max-width: 600px;
+  min-height: 400px;
+  position: relative;
+  background: url(../images/house.jpg) center / 300px auto no-repeat,
+    url(../images/lamp.png) left 0 / 5% repeat-x,
+    url(../images/hedgehog.png) left 0 / 30px repeat-y,
+    url(../images/donut.png) right 10px / 20px repeat-y,
+    #026c02 url(../images/grass.png) right 0 bottom 0 / 150px repeat-x;
+}
